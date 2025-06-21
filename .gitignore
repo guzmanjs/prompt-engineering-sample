@@ -1,0 +1,13 @@
+.env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+
+# Config local
+.env
+.settings/

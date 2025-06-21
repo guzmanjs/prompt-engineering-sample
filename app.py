@@ -2,8 +2,12 @@ import argparse
 import os
 import tomllib
 from pathlib import Path
+from dotenv import load_dotenv
 
 from openai import OpenAI
+
+# Cargar variables del archivo .env
+load_dotenv()
 
 __all__ = ["get_chat_completion"]
 
